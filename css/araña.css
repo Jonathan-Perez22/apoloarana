@@ -1,0 +1,68 @@
+		/* CONTENIDO */
+		#contenido{
+			display: flex;flex-direction: column;
+			justify-content: center;align-items: center;
+			gap: 20px;
+			width: 100%;
+		}
+		#contenido .contenedor{
+			width: 80%;height: 60vh;
+			border: 3px solid black ;
+			border-radius: 50px;
+			display: flex;
+			
+		}
+		#contenido .contenedor .p1i{
+			width: 30%;height: 100%;
+			background-color: rgba(0,0,0,0.5);
+            color: aliceblue;
+			border-radius: 50px 0px 0px 50px;
+		}
+		#contenido .contenedor .p1i img{
+			height:100%;width: 100%;
+			border-radius: 50px 0px 0px 50px;
+		}
+		#contenido .contenedor .p2i{
+			background-color: rgba(0,0,0,0.5);
+            color: aliceblue;
+
+			width: 70%;height: 100%;
+			border-radius: 0px 50px 50px 0px;
+			border-left: 2px solid black;
+		}
+		#contenido .contenedor .p2i img{
+			height:100%;width: 100%;
+			border-radius: 0px 50px 50px 0px;
+		}
+		#contenido .contenedor .p1d{
+			width: 30%;height: 100%;
+			background-color: rgba(0,0,0,0.5);
+            color: aliceblue;
+
+			border-radius: 0px 50px 50px 0px;
+	
+		}
+		#contenido .contenedor .p1d img{
+			height:100%;width: 100%;
+			border-radius: 0px 50px 50px 0px; 
+		}
+		#contenido .contenedor .p2d{
+			background-color: rgba(0,0,0,0.5);
+            color: aliceblue;
+
+			width: 70%;height: 100%;
+			border-radius: 50px 0px 0px 50px;
+			border-left: 2px solid black;
+		}
+		#contenido .contenedor .p2i p, #contenido .contenedor .p2d p, #contenido .contenedor .p1i p, #contenido .contenedor .p1d p{
+			margin: 15%;
+			font-size: 1.12em;
+		} 
+		.hero{
+			width: 100%;height: 100vh;
+			background:url(/images/apolosaluda.mp4);
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 9;
+		}
